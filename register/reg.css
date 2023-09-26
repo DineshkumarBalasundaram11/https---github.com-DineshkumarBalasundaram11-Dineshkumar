@@ -1,0 +1,101 @@
+body{
+    margin: 0px;
+    background-image: url(../event/img/lgbi3.jpg);
+    background-size: cover;
+    height: 100vh;
+    position: center;
+}
+header a{
+    text-decoration: none;
+    color: black;
+}
+header{
+    display: flex;
+
+
+}
+#logo{
+    flex: 1;
+    font-size: 1.5em;
+    color: brown;
+}
+#home a:hover{
+    color: blue;
+
+}
+#home{
+    margin-top: 5px;
+    margin-right: 75px;
+}
+.regform{
+    width: 500px;
+    margin: 150px auto;
+    padding: 10px 20px 30px;
+    background: rgba(0,0,0,0.5);
+    color: white;
+    border-radius: 10px;
+
+}
+.regform h2{
+    text-align: center;
+    color: #E29578;
+}
+.regform .txtlbl{
+    display: block;
+}
+.input input{
+    width: 75%;
+    font-size: 1.2em;
+    border: 1px solid black;
+    border-radius: 7px;
+    box-shadow: 2px;
+    padding: 3px 10px;
+    margin: 5px 0px 10px;
+}
+input:focus{
+   background-color: aqua;
+}
+.btn{
+    text-align: center;
+}
+button{
+    background-color: #83c5be;
+    color: white;
+    font-size: 1em;
+    margin-top: 20px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 2px;
+    }
+button:hover{
+    background-color: steelblue;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: linear ease-in ;
+
+}
+#regform:before{
+    content: '';
+    position: absolute;
+    bottom: 0.5%;
+    right: 25%;
+    width: 150px;
+    height: 150px;
+    background:burlywood;
+    border-radius: 50%;
+    z-index: -1;
+    opacity: 2.5;
+}
+#regform::after{
+    content: '';
+    position: absolute;
+    top: 24% ;
+    left: 28%;
+    width: 75px;
+    height: 75px;
+    background:aquamarine;
+    border-radius: 50%;
+    z-index: -1;
+    opacity: 2.5;
+}

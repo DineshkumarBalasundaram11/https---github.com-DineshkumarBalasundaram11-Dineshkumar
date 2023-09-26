@@ -1,0 +1,21 @@
+nav{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+.th p, b,i{
+    background-color: aquamarine;
+    transition-duration: 2s;
+    transition-property: all;
+    transition-timing-function: linear ease-in; 
+
+}
+.th p,b,i:hover{
+    background-color: blue;
+    color: white;
+}

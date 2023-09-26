@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="../output/thank.html">
+    <link rel="stylesheet" href="reg.css">
+    <link rel="icon" href="../event/img/rgs.jfif">
+</head>
+<body>
+    <div class="reg ">
+        <header>
+        <a href=""  id="logo">Register Form </a>
+        <nav id="home">
+            <a href="../event/eve.html">Home</a>
+        </nav>
+    </header><br>
+    <div class="regform" id="regform">
+    <h2>Sign Up</h2>
+    <form action="../output/thank.html">
+        <div class="input">
+            <label class="txtlbl" for="name">Name</label>
+            <input type="text" id="name" required minlength="5" maxlength="16">
+        </div>
+        <div class="input">
+            <label class="txtlbl" for="email">Email</label>
+            <input type="email" id="email" required>
+        </div>
+        <div class="input">
+            <label class="txtlbl" for="pwd">Password</label>
+            <input type="password" id="pwd" required minlength="6">
+        </div>
+        <div class="radio">
+            <input type="radio" id="gender" name="gender">
+            <label for="radio">Male</label>
+            <input type="radio" id="radio" name="gender">
+            <label for="radio">Female</label>
+        </div>
+        <div class="sports">
+            <label class="txtlbl" for="sports">Sports</label>
+            <select name="sports" id="sports" >
+                <option value="sports">Cricket</option>
+                <option value="sports">Football</option>
+                <option value="sports">Tennis</option>
+            </select>
+        </div>
+        <div class="sms">
+            <input type="checkbox" name="emailalert" id="emailalert">
+            <label for="emailalert">Email Alert</label>
+        </div>
+        <div class="btn">
+            <button type="submit">Register</button>
+            <button type="reset">Reset</button>
+        </div>
+
+    </form>
+</div>
+
+    </div>
+</body>
+</html>
